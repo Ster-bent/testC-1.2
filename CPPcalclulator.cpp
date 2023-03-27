@@ -27,6 +27,7 @@ int main(){
     if (operation == div){
         cout << x/y << endl;
     }
+    //needs to be checked by main and by others
     if (operation == cancel){
         break;
     }
