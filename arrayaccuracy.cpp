@@ -11,6 +11,7 @@ int main(){
     float c = (3.0/5.0)*100;
     float d = (4.0/5.0)*100;
     float e = (5.0/5.0)*100;
+    //fix array matrix to be based and not cringe
     int arr1[] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
     int arr2[] = {0, 1, 2, 3, 4, 5};
     int arr3[] = {0, 1, 2, 3, 4, 5, 6};
