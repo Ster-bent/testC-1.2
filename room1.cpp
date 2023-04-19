@@ -2,9 +2,20 @@
 using namespace std;
 
 string command;
-// L/ and the greet message wil be natural.
+string commands[]= {"/shutdown", "/source", "/roomai", "/calculate", "/wsites"};
 string response[]= {};
 
-void main(){
-
+int main(){
+        cout << "Type /L to see a list of commands" << endl;
+    while (true) {
+        cin >> command;
+        if (command == response[0]){
+            break;
+        }
+        else if (command == "/L"){
+            for (int x; x<=4; x++){
+                cout << commands[x] << endl;
+            }
+        }
+    }
 }
