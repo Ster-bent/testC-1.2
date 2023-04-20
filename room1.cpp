@@ -5,9 +5,20 @@ string command;
 string commands[]= {"/shutdown", "/source", "/roomai", "/calculate", "/wsites"};
 string response[]= {};
 
+string wsitearr[]= {"h", "s", "d", "l"};
+
+int wsites(){
+    for (int o; o<=3; o++){
+        cout << wsitearr[o] << endl;
+        cout << "h" << endl;
+
+    }
+    return 0;
+}
+
 int source(){
     cout << "Made by Ster-bent!" << endl;
-    return 0
+    return 0;
 }
 
 int calculator(){
@@ -57,12 +68,18 @@ int main(){
             break;
         }
         else if (command == "/L"){
-            for (int x; x<=4; x++){
-                cout << commands[x] << endl;
+            for (int b; b<=4; b++){
+                cout << commands[b] << endl;
             }
         }
         else if (command == "/calculate"){
             calculator();
+        }
+        else if (command == "/source"){
+            source();
+        }
+        else if (command == "/wsites") {
+            wsites();
         }
     }
     return 0;
