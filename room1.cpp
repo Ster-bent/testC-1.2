@@ -4,14 +4,11 @@ using namespace std;
 string command;
 string commands[]= {"/shutdown", "/source", "/roomai", "/calculate", "/wsites"};
 string response[]= {};
+string wsite[]= {"https://github.io/ster-bent", "https://github.io/ster-bent/sterbent.hub/scottishfy.html", "https://github.io/ster-bent/test1.1/crux.html"};
 
-string wsitearr[]= {"h", "s", "d", "l"};
-
-int wsites(){
-    for (int o; o<=3; o++){
-        cout << wsitearr[o] << endl;
-        cout << "h" << endl;
-
+int webs(){
+    for (int i; i<=2; i++){
+        cout << wsite[i] << endl;
     }
     return 0;
 }
@@ -79,7 +76,7 @@ int main(){
             source();
         }
         else if (command == "/wsites") {
-            wsites();
+            webs();
         }
     }
     return 0;
