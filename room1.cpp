@@ -7,9 +7,9 @@ string response[]= {};
 string wsite[]= {"https://github.io/ster-bent", "https://github.io/ster-bent/sterbent.hub/scottishfy.html", "https://github.io/ster-bent/test1.1/crux.html"};
 
 int webs(){
-    for (int i; i<=2; i++){
-        cout << wsite[i] << endl;
-    }
+    cout << wsite[0] << endl;
+    cout << wsite[1] << endl;
+    cout << wsite[2] << endl;
     return 0;
 }
 
