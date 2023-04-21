@@ -4,7 +4,7 @@ using namespace std;
 string command;
 string commands[]= {"/shutdown", "/source", "/roomai", "/calculate", "/wsites"};
 string response[]= {};
-string wsite[]= {"https://github.io/ster-bent", "https://ster-bent.github.io/sterbent.hub/scottishfy.html", "https://ster-bent.github.io/test1.1/crux.html"};
+string wsite[]= {"https://github.com/ster-bent", "https://ster-bent.github.io/sterbent.hub/scottishfy.html", "https://ster-bent.github.io/test1.1/crux.html"};
 
 int webs(){
     cout << wsite[0] << endl;
